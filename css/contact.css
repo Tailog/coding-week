@@ -1,0 +1,57 @@
+/***********************************************************************/
+/***********************Form*******************************************/
+/**********************************************************************/
+form{
+    background-color: rgba(194, 191, 191,0.2);
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid darkgrey;
+}
+.contact-me{
+    width: 50%;
+    margin: 0 25%;
+}
+/***********************************************************************/
+/***********************Social Media************************************/
+/**********************************************************************/
+
+.social-media-contact{
+    background-color: rgba(194, 191, 191,0.2);
+    border-radius: 10px;
+    border:1px solid darkgrey;
+    height: 125px;
+    width: 80%;
+}
+
+.social-media-contact a{
+    font-size: 300%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.youtube-contact:link,
+.youtube-contact:visited{
+    color: rgba(196, 48, 43,0.7);
+}
+.twitter-contact:link,
+.twitter-contact:visited{
+    color: rgb(0, 172, 238,0.7);
+}
+.facebook-contact:link,
+.facebook-contact:visited{
+    color: rgb(59, 89, 152,0.7);
+}
+.facebook-contact a:hover{
+    color: #3B5998;
+}
+.twitter-contact a:hover{
+    color: #00ACEE;
+}
+.youtube-contact:hover{
+    color: rgba(196, 48, 43,1)
+}
+.twitter-contact:hover{
+    color: rgb(0, 172, 238,1);
+}
+.facebook-contact:hover{
+    color: rgb(59, 89, 152,1);
+}

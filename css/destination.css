@@ -1,0 +1,116 @@
+/**************************************************/
+/*******************Carousel***********************/
+/**************************************************/
+.carousel-inner {
+    height: 90vh;
+    width: 100%;
+}
+
+.carousel-inner img {
+    height: 90vh;
+    width: 100%;
+}
+
+/**************************************************/
+/*****************Section Porto********************/
+/**************************************************/
+
+#img-content-porto {
+    background-image: url(../img/porto-destination.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 100vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+.text-porto {
+    position: absolute;
+    top: 100vh;
+    width: 50%;
+    margin: 0 25%;
+}
+/**************************************************/
+/*****************Section Lisbon********************/
+/**************************************************/
+#img-content-lisbon {
+    background-image: url(../img/lisbon-destination.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 200vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.text-lisbon {
+    position: absolute;
+    top: 200vh;
+    width: 50%;
+    margin: 0 25%;
+}
+/**************************************************/
+/*****************Section Braga********************/
+/**************************************************/
+#img-content-braga {
+    background-image: url(../img/braga-destination.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 300vh;
+    left: 0vh;
+    z-index: -1;
+    background-repeat: no-repeat;
+}
+
+.text-braga {
+    position: absolute;
+    top: 300vh;
+    width: 50%;
+    margin: 0 25%;
+}
+.title-content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-right-radius: 75%;
+    border-bottom-left-radius: 75%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    width: 33%;
+    margin: 0 33%;
+}
+/**************************************************/
+/*****************Go Up********************/
+/**************************************************/
+.go-up{
+    height: 150px;
+    width: 150px;
+    border-radius: 20%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    text-align: center;
+    background-color: rgba(194, 191, 191,0.2);
+}
+.fa-arrow-circle-up{
+    font-size: 500%;
+    margin-top: 25px;
+    color: grey;
+}
+a:active,
+a:link,
+a:visited{
+    color: black;
+}
+.fa-arrow-circle-up:hover{
+    color: black;
+}
+.go-up:hover{
+    background-color: rgba(194, 191, 191,0.9);
+    transition: background-color 0.5s;
+}
